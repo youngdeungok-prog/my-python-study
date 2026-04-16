@@ -1,0 +1,11 @@
+# 설정 파일 무시 (DB 접속 정보 등)
+config.py
+.env
+secret_key.txt
+
+# 파이썬 실행 시 생성되는 임시 폴더 무시
+__pycache__/
+*.pyc
+
+# 특정 확장자 전체 무시
+*.log
